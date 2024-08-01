@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<body style="padding-bottom:1000px;">
+    <div style="display: flex;border:1px solid black;margin-bottom:20px;
+            flex-direction: row; /*This will align them in a row*/
+            justify-content: space-between; /*This will space them evenly*/
+        ">
+        <div style="background-color: lightblue;">100px</div>
+        <div style="background-color: lightpink;">100px</div>
+        <div style="background-color: lightblue;">100px</div>
+    </div>
+    <div style="display: flex;
+                margin-top:30px;
+                height:70px;
+                border:1px solid black;
+                justify-content:start; /* Three values they are start end space-between*/
+
+         ">
+         <div style="background-color: lightpink; width:100px;">100px</div>
+        <div style="background-color: lightblue; width:100px;">100px</div>
+        <div style="background-color: lightpink; width:100px">100px</div>
+    </div>
+    <div style="display: flex;
+                margin-top:30px;
+                height:70px;
+                border:1px solid black;
+                justify-content:center; /* Three values they are start end space-between*/
+                align-items:center; /*This will align items in the div.The values are center baseline */
+         ">
+         <div style="background-color: lightpink; width:100px;">100px</div>
+         <div style="background-color: lightblue; width:100px;">100px</div>
+         <div style="background-color: lightpink; width:100px">100px</div>
+    </div>
+</body>
+</html>
